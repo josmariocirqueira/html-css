@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype')
+}
+
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+header {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: linear-gradient(to top, #195A36, #1A5F38, #258450, #31AF69, #3CD882);
+    margin: 0px;
+    border-top: 20px solid #3CD882;
+    color: white;
+    box-shadow: 5px 2px 9px 0px rgb(0 6 7 / 61%);
+}
+
+.fonte {
+    text-align: center;
+    margin: 0px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 114, 61);
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #43ce82;
+}
+
+a:active {
+    color: red;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+.principal {
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 2px 9px 0px rgb(0 6 7 / 61%);
+}
+
+h2 {
+    font-family: 'idroid';
+    color: #2b744c;
+}
+
+.degrade {
+    background-image: linear-gradient(to right, #8EE8B6, #8ee8b7c7, #8ee8b771, #8ee8b70e);
+}
+
+footer {
+    background-color: rgb(28, 78, 28);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+    border-top: solid 8px #84E1AD;
+}
+
+.centrou {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundo {
+    text-align: center;
+    background-color: #0b4224;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+aside {
+    background-color: #53dd8f;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 6, 7, 0.61);
+}
+
+.extra {
+    background-color: #357c54;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.novo {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow:  3px 7px 9px 0px rgb(0 6 7 / 61%);
+}
+
+.indentado {
+    text-indent: 20px;
+}
+
+
+
